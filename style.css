@@ -55,9 +55,6 @@ p {
 .plofile {
 	background-color:rgba(0,36,59,1);
 }
-/*.col img {
-	width: 100%;
-}*/
 .motto-second {
 	background-color: rgba(0,36,59,1);
 	width: 100%;
@@ -73,8 +70,11 @@ p {
 	background: url(img/bg1.jpg);
 	background-size: cover;
 }
-
-
+.fadein {
+  opacity : 0;
+  transform: translateY(20px);
+  transition: all 1s;
+}
 body {
   margin: 0;
   padding: 0;
