@@ -8,6 +8,15 @@
     padding-top: 16rem;
     height: auto;
 }
+.navbar-expand-lg {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  background-color: black;
+}
+.navbar {
+  background-color: black;
+}
 h1 , .container h2 , .show-case h1 {
 	font-family: Century;
 }
